@@ -8,3 +8,5 @@ It is made up for two modules;
 
 For usage see `help(flights.data)` and `help(flights.tools)`
 """
+
+from flights import data, tools

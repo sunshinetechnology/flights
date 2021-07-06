@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flights"
-version = "0.1.0"
+version = "0.1.1"
 description = "Flights is a package to simplify working with flight data at Sunshine Technology."
 authors = ["Alex Macniven <macniven.ap@gmail.com>"]
 
