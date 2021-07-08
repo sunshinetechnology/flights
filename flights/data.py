@@ -17,7 +17,6 @@ class FlightRecord:
     arriving_at: datetime
     code: str
     fare: float
-    fare_type: str
     seats: int
     direction: str
 

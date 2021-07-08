@@ -16,10 +16,10 @@ def record_list() -> RecordList:
     timestamp: datetime = datetime(2021, 3, 18, 1, 0, 0, 0)
     return [
         data.FlightRecord(
-            "MAN", "JFK", timestamp, timestamp, "1233", 99.99, "STND", 9, "O"
+            "MAN", "JFK", timestamp, timestamp, "1233", 99.99, 9, "O"
         ),
         data.FlightRecord(
-            "JFK", "MAN", timestamp, timestamp, "1233", 99.99, "STND", 9, "I"
+            "JFK", "MAN", timestamp, timestamp, "1233", 99.99, 9, "I"
         ),
     ]
 

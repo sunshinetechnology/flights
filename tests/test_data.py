@@ -18,7 +18,7 @@ class TestFlightRecord:
     def test_init(self):
         """Test FlightRecord is initialized."""
         obj: FlightRecord = data.FlightRecord(
-            "MAN", "JFK", datetime.now(), datetime.now(), "1233", 99.99, "STND", 9, "O"
+            "MAN", "JFK", datetime.now(), datetime.now(), "1233", 99.99, 9, "O"
         )
         assert hasattr(obj, "departing")
         assert hasattr(obj, "arriving")
@@ -26,6 +26,5 @@ class TestFlightRecord:
         assert hasattr(obj, "arriving_at")
         assert hasattr(obj, "code")
         assert hasattr(obj, "fare")
-        assert hasattr(obj, "fare_type")
         assert hasattr(obj, "seats")
         assert hasattr(obj, "direction")
